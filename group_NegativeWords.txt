@@ -1,1 +1,3 @@
-cash
+loss
+stake
+bad
