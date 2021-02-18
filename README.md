@@ -1,4 +1,4 @@
-# PDF file analysis
+# Textual Analysis of Annual Reports PDFs
 
 This is a Python application that helps perform textual analysis on a large volume of PDF files organized by company name and collects relevant data and presents the results in a compelling CSV format useful for statistical analysis or as training data. *XPDF reader(open-source) application in the form of a x64 executable file is used for quick conversion of PDF to text* 
 
@@ -12,7 +12,9 @@ filelock==3.0.12
 ## How to Use
 <block>
   
-*Organize the PDFs in a folder structure such as `<Company name>/<year or any valid identifier>.pdf`*
+*Organize the annual reports in PDFs in a folder structure such as `<Company name>/<year or any valid identifier>.pdf`*
+
+For example, a company folder named "Microsoft" would contain the company's annual reports in PDF form and each PDF would be named by the year of publication, e.g. 2019.pdf.
 
 Create files with the naming format `group_<name>.txt` and add necessary words inside it for getting a grouped output of the word count in the file.
 Have a master word file with the name `words.txt` to determine the word count of the words in this file followed by the data specific to each individual filing type
@@ -38,12 +40,9 @@ This file contains data in the format
 
 ## Created to assist the research of:
 
-<block>
-  
-#### Athanasios P. Fassas
-#### Sotirios K. Bellos
+<block> 
+ 
 #### George Kladakis
-
 </block>
 
 
