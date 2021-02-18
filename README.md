@@ -1,8 +1,14 @@
 # Textual Analysis of Annual Reports PDFs
 
-This is a Python application that helps perform textual analysis on a large volume of PDF files organized by company name and collects relevant data and presents the results in a compelling CSV format useful for statistical analysis or as training data. *XPDF reader(open-source) application in the form of a x64 executable file is used for quick conversion of PDF to text* 
+This is a Python program that helps perform textual analysis on a large volume of PDF files organized by company name and collects relevant data and presents the results in a compelling CSV format useful for statistical analysis or as training data. 
 
- `Important note: The process of reading multiple PDF files utilizes parallel processing using Python threads which merely spawn the executable as individual ungrouped processes for the sake of efficiency and make use of multiple cores in the system`
+The application is designed to count the occurrences of certain words/phrases as well as of large groups of words/phrases.
+
+##### The sample lists provided as an example use case for sentiment analysis has been obtained from [Loughran-McDonald Sentiment Wordlists](https://sraf.nd.edu/textual-analysis/resources/)
+
+> *XPDF reader(open-source) application in the form of a x64 executable file is used for quick conversion of PDF to text* 
+
+ > `Important note: The process of reading multiple PDF files utilizes parallel processing using Python threads which merely spawn the executable as individual ungrouped processes for the sake of efficiency and make use of multiple cores in the system`
 
 ## Requirements
 ```
@@ -38,11 +44,11 @@ This file contains data in the format
 ## Program Author
 ### Sarvesh E B
 
-## Created to assist the research of:
+## Project Ideation and Co-Authoring :
 
 <block> 
  
-#### George Kladakis
+### George Kladakis (Management School, University of Sheffield)
 </block>
 
 
