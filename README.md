@@ -44,7 +44,7 @@ This file contains data in the format
 ## Program Author
 ### Sarvesh E B
 
-## Project Ideation and Co-Authoring :
+## Project Conceptualization and Co-Authoring :
 
 <block> 
  
